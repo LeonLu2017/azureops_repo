@@ -21,7 +21,7 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName CreateWebApp -linkedTemplateUri https://raw.githubusercontent.com/LeonLu2017/azureops_repo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName webappllu6 -linkedTemplateUri https://raw.githubusercontent.com/LeonLu2017/azureops_repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
     deploymentOutputs: 'DeployPipelineOutput'
